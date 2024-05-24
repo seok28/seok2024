@@ -44,7 +44,7 @@ const Site = () => {
                                 {site.title}
                             </h3>
                             <div className="btn">
-                                <a href={site.code}>코드 보기</a>
+                                <a href={site.code}>코드 보기</a>   
                             </div>
                             <div className="info">
                                 <span>{site.info[0]}</span>
