@@ -5,7 +5,7 @@ import about from "../assets/img/about.jpg";
 const introText= {
     title:"FrontEnd",
     title2:"Developer",
-    desc:["나의 재능은","끝까지 찾는 것이다","노력을"],
+    desc:["문구 생각 중"],
 };
 
 const Intro = () => {
