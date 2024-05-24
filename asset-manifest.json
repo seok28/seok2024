@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/seok2024/static/css/main.bf0ed7d6.css",
+    "main.js": "/seok2024/static/js/main.0058299d.js",
+    "static/media/about.jpg": "/seok2024/static/media/about.a3022f96ee2cff3f9b2d.jpg",
+    "index.html": "/seok2024/index.html",
+    "main.bf0ed7d6.css.map": "/seok2024/static/css/main.bf0ed7d6.css.map",
+    "main.0058299d.js.map": "/seok2024/static/js/main.0058299d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bf0ed7d6.css",
+    "static/js/main.0058299d.js"
+  ]
+}
