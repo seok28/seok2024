@@ -1,6 +1,8 @@
 import React from "react";
 
 import port1 from "../assets/img/port1.jpg"; 
+import port2 from "../assets/img/port2.jpg";
+import port3 from "../assets/img/port3.jpg";
 
 const Port = () => {
     return (
@@ -22,6 +24,31 @@ const Port = () => {
                         </p>
                         <a href="https://catmbti0928.netlify.app/" target="_blank" className="site" rel="noreferrer">사이트 보기</a>
                     </article>
+
+                    <article className="port__item p2">
+                        <span className="num">02.</span>
+                        <a href="https://github.com/seok28/web_portfolio" target="_blank" className="img" rel="noreferrer">
+                            <img src= {port2} alt="웹 포트폴리오1" />
+                        </a>
+                        <h3 className="title">첫번째 웹 포트폴리오 </h3>
+                        <p className="desc">
+                            대학교 졸업 직전 리액트 자바스크립트 코드를 사용하여 간단하게 구현한 저의 웹 포트폴리오 사이트 입니다.
+                        </p>
+                        <a href="https://seok28.github.io/web_portfolio/" target="_blank" className="site" rel="noreferrer">사이트 보기</a>
+                    </article>
+
+                    <article className="port__item p3">
+                        <span className="num">03.</span>
+                        <a href="https://github.com/seok28/seok2024" target="_blank" className="img" rel="noreferrer">
+                            <img src= {port3} alt="웹 포트폴리오2" />
+                        </a>
+                        <h3 className="title">두번째 웹 포트폴리오 </h3>
+                        <p className="desc">
+                            대학졸업 후 프런트엔드 개발 취업 구인 구직 중 리액트 공부 용도로 만들어 본 저의 웹 포트폴리오 사이트 입니다.
+                        </p>
+                        <a href="https://seok28.github.io/seok2024/" target="_blank" className="site" rel="noreferrer">사이트 보기</a>
+                    </article>
+
                 </div>
             </div>
         </section>
