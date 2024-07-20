@@ -1,5 +1,16 @@
 import React from "react";
 
+const contactText = [
+    {
+        link:"https://www.naver.com",
+        title:"KAKAO : SEOK28",
+    },
+    {
+        link:"mailto:seokjoonsoo@naver.com",
+        title:"mail:SEOKJOONSOO@NAVER.COM",
+    },
+];
+
 const Contact = () => {
     return(
         <section id="contact">
@@ -16,11 +27,21 @@ const Contact = () => {
                 </div>
                 <div className="contact__text">
                     <div className="text">
-                        <div>
-                            <a href="https://www.naver.com/" target="_blank" rel="noreferrer">KAKAO : SEOK28</a>
+                        {contactText.map((contact,key)=> (
+                            <div key={key}>
+                                <a
+                                href={contact.link}
+                                rel="noopener noreferrer"
+                                target="_blank"
+                                >
+                                    {contact.title}
+                                </a>
+                                </div>
+                        ))}
+                        <div>   
                         </div>
                         <div>
-                            <a href="mailto:seokjoonsoo@naver.com" target="_blank" rel="noreferrer">mail:SEOKJOONSOO@NAVER.COM</a>
+                           
                         </div>
                     </div>
                 </div>
