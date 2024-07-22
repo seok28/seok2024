@@ -7,7 +7,7 @@ const contactText = [
     },
     {
         link:"mailto:seokjoonsoo@naver.com",
-        title:"mail:SEOKJOONSOO@NAVER.COM",
+        title:"E-mail : SEOKJOONSOO@NAVER.COM",
     },
 ];
 

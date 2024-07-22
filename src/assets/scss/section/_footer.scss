@@ -34,8 +34,8 @@
                 padding: 20px 0;
                 text-transform: uppercase;
                 font-weight: 700;
-                background: url(../../img/arrow.svg) no-repeat right 20px;
                 transition: all 0.3s;
+                 // background: url(../../img/arrow.svg) no-repeat right 20px;
 
                 &:hover {
                     background-color: var(--black400);
@@ -62,7 +62,7 @@
 
             h3 {
                 border-top: 2px solid var(--black);
-                font-size: 10px;
+                font-size: 20px;
                 margin-bottom: 40px;
                 padding-top: 10px;
             }
