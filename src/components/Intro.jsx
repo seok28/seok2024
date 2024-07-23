@@ -5,7 +5,7 @@ import about from "../assets/img/about.jpg";
 const introText= {
     title:"FrontEnd",
     title2:"Developer",
-    desc:["문구 생각 중"],
+    desc:["사이트 제작 중"],
 };
 
 const Intro = () => {

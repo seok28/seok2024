@@ -5,12 +5,17 @@
     padding: 16px;
 
     .footer__text {
-        font-size: 12px;
-        text-transform: uppercase;
-        border-top: 1px solid var(--black);
-        border-bottom: 1px solid var(--black);
-        display: flex;
-        justify-content: space-between;
+        width: 100%;
+        height: 5vw;
+        font-size: 4vw;
+        font-weight: 900;
+        line-height: 1; // 라인 두께 1.6
+        font-family: var(--mainKor-font);
+        text-transform: uppercase; // p 속성 대문자화
+        color:black; // var(--black100)
+        border-bottom: 0.7vw solid var(--black100); // 제목 아래 밑줄 선
+        margin-bottom: 10px; 
+        text-indent: -0.3vw; // 들여쓰기 
     }
     .footer__info {
         display: flex;
@@ -37,11 +42,11 @@
                 transition: all 0.3s;
                  // background: url(../../img/arrow.svg) no-repeat right 20px;
 
-                &:hover {
-                    background-color: var(--black400);
-                    padding-left: 10px;
-                    border-color: transparent;  
-                }
+                // &:hover {
+                //     background-color: var(--black400);
+                //     padding-left: 10px;
+                //     border-color: transparent;  
+                // }
             }
             .desc {
                 font-size: 12px;
@@ -68,6 +73,7 @@
             }
             ul {
                 border-top: 1px solid var(--black);
+                // padding-top: 5px;
 
                 li {
                     border-bottom: 1px solid var(--black);
@@ -94,10 +100,10 @@
             }
         }
     }
-    .footer__right {
+    .footer__bottom {
         text-align: center;
         text-transform: uppercase;
-        font-size: 12px;
-        margin-bottom: 20px;
+        font-size: 11px;
+        margin-bottom: 10px;
     }
 }

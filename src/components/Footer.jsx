@@ -5,13 +5,13 @@ const Footer =() => {
         <footer id="footer" role="contentinfo">
             <div className="footer__inner">
                 <div className="footer__text">
-                    <span>seok28</span>
-                    <span>석준수</span>
+                    <span>FOR ME(이름 아직 못정함)</span>
                 </div>
                 <div className="footer__info">
                     <div className="left">
                         <div className="title">
-                            <a href="/">sign up</a>
+                            <h3>SIGN UP</h3>
+                            {/* <a href="/">sign up</a> */}
                         </div>
                         <p> 회원가입, 댓글과 게시판 기능 배포 예정입니다.</p>
                     </div>
@@ -29,7 +29,7 @@ const Footer =() => {
                         </ul>
                     </div>
                 </div>
-                <div className="footer__right">
+                <div className="footer__bottom">
                     2024 seok28 <br />
                     이 사이트는 리액트를 사용하여 제작하였습니다.
                 </div>
