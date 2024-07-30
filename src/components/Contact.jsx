@@ -2,7 +2,7 @@ import React from "react";
 
 const contactText = [
     {
-        link:"https://open.kakao.com/o/sYCUFYFg",
+        link:"https://open.kakao.com/o/gAKYLYFg",
         title:"KAKAO : SEOK28",
     },
     {
